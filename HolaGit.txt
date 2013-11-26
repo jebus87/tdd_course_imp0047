@@ -1,2 +1,0 @@
-Hola Git
-First change recorded
