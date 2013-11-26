@@ -1,22 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace FizzBuzz.Tests
 {
     [TestFixture]
     public class FizzBuzzTests
     {
-        [Test]
-        public void Answer_InputEqual1_OutputEqual1()
+        private FizzBuzz _fizzBuzz;
+
+        [SetUp]
+        public void Setup()
         {
-            string expectedOutput = "1";
-            FizzBuzz fb = new FizzBuzz();
-            string output = fb.Answer(1);
-            Assert.AreEqual(expectedOutput, output);
+            this._fizzBuzz = new FizzBuzz();
         }
 
+        [Test]
+        [TestCase(1,"1") ]
+        [TestCase(2, "2")]
+        [TestCase(3, "fizz")]
+        [TestCase(4, "4")]
+        [TestCase(5, "buzz")]
+        [TestCase(6, "fizz")]
+        [TestCase(10, "buzz")]
+        [TestCase(15, "fizzbuzz")]
+        public void Answer_InputEqualValue_OutputCorrect(int input, string expected)
+        {
+            string output = this._fizzBuzz.Answer(input);
+
+            Assert.AreEqual(expected, output);
+        }
     }
 }
