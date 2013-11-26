@@ -12,9 +12,10 @@ namespace FizzBuzz.Tests
         [Test]
         public void Answer_InputEqual1_OutputEqual1()
         {
+            string expectedOutput = "1";
             FizzBuzz fb = new FizzBuzz();
             string output = fb.Answer(1);
-            Assert.AreEqual("1", output);
+            Assert.AreEqual(expectedOutput, output);
         }
 
     }

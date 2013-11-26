@@ -8,9 +8,9 @@ namespace FizzBuzz
     public class FizzBuzz
     {
 
-        public string Answer(int p)
+        public string Answer(int input)
         {
-            return p.ToString();
+            return input.ToString();
         }
     }
 }
