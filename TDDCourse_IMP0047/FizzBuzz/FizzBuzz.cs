@@ -5,7 +5,12 @@ using System.Text;
 
 namespace FizzBuzz
 {
-    public class Class1
+    public class FizzBuzz
     {
+
+        public string Answer(int p)
+        {
+            return p.ToString();
+        }
     }
 }
