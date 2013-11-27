@@ -103,7 +103,7 @@ namespace RomanConverted
                 string centena;
                 string Long;
                 Long = input.ToString();
-                unidad = Long.Substring(1,2);
+                unidad = Long.Substring(0,1);
                 //if ((input /10) = 0)
                 //{ 
                 //}
