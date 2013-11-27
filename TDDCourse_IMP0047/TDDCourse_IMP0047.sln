@@ -10,6 +10,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{11E944
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kata1", "Kata1", "{507C0AD7-7DF7-43CC-B989-8AC03D0E276B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kata2", "Kata2", "{67A19DEF-3239-40E5-A782-487C9D335250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanConverted", "RomanConverted\RomanConverted.csproj", "{31E39E94-A1BE-4ED1-B22C-DEEC0C7465EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanConverted.Test", "RomanConverted.Test\RomanConverted.Test.csproj", "{A68E0C57-C2C1-4C90-A8C4-2B2A98623214}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,8 +32,22 @@ Global
 		{E355F6B9-DEC2-46EC-A951-5A2A484B4EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E355F6B9-DEC2-46EC-A951-5A2A484B4EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E355F6B9-DEC2-46EC-A951-5A2A484B4EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E39E94-A1BE-4ED1-B22C-DEEC0C7465EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E39E94-A1BE-4ED1-B22C-DEEC0C7465EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E39E94-A1BE-4ED1-B22C-DEEC0C7465EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E39E94-A1BE-4ED1-B22C-DEEC0C7465EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68E0C57-C2C1-4C90-A8C4-2B2A98623214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68E0C57-C2C1-4C90-A8C4-2B2A98623214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68E0C57-C2C1-4C90-A8C4-2B2A98623214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68E0C57-C2C1-4C90-A8C4-2B2A98623214}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{797E63B5-E80B-4C3E-BFB8-71F5F80960F7} = {507C0AD7-7DF7-43CC-B989-8AC03D0E276B}
+		{E355F6B9-DEC2-46EC-A951-5A2A484B4EE4} = {507C0AD7-7DF7-43CC-B989-8AC03D0E276B}
+		{31E39E94-A1BE-4ED1-B22C-DEEC0C7465EC} = {67A19DEF-3239-40E5-A782-487C9D335250}
+		{A68E0C57-C2C1-4C90-A8C4-2B2A98623214} = {67A19DEF-3239-40E5-A782-487C9D335250}
 	EndGlobalSection
 EndGlobal
