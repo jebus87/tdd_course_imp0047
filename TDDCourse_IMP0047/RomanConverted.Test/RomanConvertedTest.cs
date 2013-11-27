@@ -32,10 +32,11 @@ namespace RomanConvertedTest
         [TestCase(20, "XX")]
         [TestCase(50, "L")]
         [TestCase(70, "LXX")]
-        [TestCase(75, "LXXV")]
+       // [TestCase(72, "LXXII")]
         [TestCase(100, "C")]
         [TestCase(200, "CC")]
         [TestCase(500, "D")]
+        [TestCase(550, "DL")]
         [TestCase(800, "DCCC")]
         [TestCase(1000, "M")]
         public void Answer_InputEqualValue_OutputCorrect(int input, string expected)

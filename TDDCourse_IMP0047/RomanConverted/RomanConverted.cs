@@ -98,18 +98,16 @@ namespace RomanConverted
                     return "CM";
                 else
                     return "Número Desconocido";
+
                 string unidad;
                 string decena;
                 string centena;
                 string Long;
                 Long = input.ToString();
-                unidad = Long.Substring(0,1);
-                //if ((input /10) = 0)
-                //{ 
-                //}
-                //if ((input / 100) = 0)
-                //{
-                //}
+                unidad = Long.Substring(0, 1);
+                decena = Long.Substring(1, 2);
+                centena = Long.Substring(2, 3);
+               
                
 
         }
