@@ -1,0 +1,2 @@
+Migrate.exe /conn "server=localhost;database=storedb_devel;User Id=root;Password=admin;" /provider mysql /assembly "C:\courses\IBSupport\harrypotter\HarryPotter\HarryPotter.Migrations\bin\Debug\HarryPotter.Migrations.dll" /verbose true
+pause

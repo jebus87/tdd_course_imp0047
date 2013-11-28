@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>NDbUnit.SqlClient</id>
+    <version>1.6.8.0</version>
+    <title>NDbUnit.SqlClient</title>
+    <authors>Stephen Bohlen</authors>
+    <owners>Stephen Bohlen</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>http://ndbunit.googlecode.com/</projectUrl>
+    <iconUrl>https://nugetgallery.blob.core.windows.net/icons/NDbUnit.SqlClient.1.6.8.0.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NDbUnit for Sql Server targets; NDbUnit is a framework for managing database state during data-dependent unit tests</description>
+    <summary>NDbUnit for Sql Server targets; NDbUnit is a framework for managing database state during data-dependent unit tests</summary>
+    <tags>unittest test database SQLServer</tags>
+    <dependencies>
+      <dependency id="NDbUnit.Core" version="1.6.8.0" />
+    </dependencies>
+  </metadata>
+</package>
